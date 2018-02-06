@@ -169,7 +169,7 @@ $(document).ready(function() {
 	function highlightKeyword(input) {
 		$(".search-highlight").mark(input, {
 			"element": "span",
-			"className": "highlight"
+			"className": "highlight-search"
 		});
 	}
 
@@ -194,6 +194,5 @@ $(document).ready(function() {
 		api_title = title.split("-");
 		title = api_title.slice(1, api_title.length).join("-");
 		return title;
-
 	}
 });
